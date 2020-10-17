@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "minima"
-  spec.version       = "2.5.0"
-  spec.authors       = ["Joel Glovier"]
-  spec.email         = ["jglovier@github.com"]
+  spec.name          = "private-minima"
+  spec.version       = "1.0.0"
+  spec.authors       = ["Antonio Morales"]
+  spec.email         = ["amoralesch@github.com"]
 
-  spec.summary       = "A beautiful, minimal theme for Jekyll."
-  spec.homepage      = "https://github.com/jekyll/minima"
+  spec.summary       = "A copy of minimal theme for Jekyll - with privacy in mind."
+  spec.homepage      = "https://github.com/amoralesch/minima"
   spec.license       = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
@@ -17,8 +17,6 @@ Gem::Specification.new do |spec|
   end
 
   spec.add_runtime_dependency "jekyll", ">= 3.5", "< 5.0"
-  spec.add_runtime_dependency "jekyll-feed", "~> 0.9"
-  spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.1"
 
   spec.add_development_dependency "bundler"
 end
